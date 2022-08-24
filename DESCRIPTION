@@ -1,0 +1,39 @@
+Package: AmplioHelpers
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ryan",
+           family = "Weber",
+           role = c("aut", "cre"),
+           email = "weberr1@mskcc.org",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Setup and site functions for implementing the Amplio 2.0 workflow SOPs.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    survival,
+    dplyr,
+    magrittr,
+    multcomp,
+    glue,
+    lubridate,
+    here,
+    janitor,
+    scales,
+    usethis,
+    gtsummary,
+    shiny,
+    rlist,
+    gt,
+    DT,
+    rstudioapi,
+    rstudio.prefs,
+    AmplioTemplates,
+    diffdf
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
